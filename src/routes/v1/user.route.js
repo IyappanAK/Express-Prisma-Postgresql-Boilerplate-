@@ -3,8 +3,6 @@ const express = require('express');
 const validate = require('../../middlewares/validate');
 const userValidation = require('../../validations/user.validation');
 const userController = require('../../controllers/user.controller');
-const collectioncontroller = require('../../controllers/collection.controller');
-const collectionvalidation = require('../../validations/collection.validation');
 const auth = require('../../middlewares/auth');
 
 const router = express.Router();

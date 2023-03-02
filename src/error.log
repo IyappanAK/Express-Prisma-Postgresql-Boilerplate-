@@ -1,0 +1,3427 @@
+ 14/2/2023, 12:51:49 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:365:14)
+ 14/2/2023, 12:51:49 pm [31merror[39m: GET /v1/collection/web 401 - 13.839 ms - message: Please authenticate
+ 14/2/2023, 12:52:58 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+ 14/2/2023, 12:52:58 pm [31merror[39m: GET /v1/login 404 - 4.955 ms - message: Not found
+ 14/2/2023, 12:53:04 pm [31merror[39m: Error: "email" is required, "password" is required
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\validate.js:15:17
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+ 14/2/2023, 12:53:04 pm [31merror[39m: POST /v1/login 400 - 7.477 ms - message: "email" is required, "password" is required
+ 14/2/2023, 12:54:15 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:54:15 pm [31merror[39m: POST /v1/login 500 - 2181.425 ms - message: invalid username and password
+ 14/2/2023, 12:54:24 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:54:24 pm [31merror[39m: POST /v1/login 500 - 43.032 ms - message: invalid username and password
+ 14/2/2023, 12:56:15 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:56:15 pm [31merror[39m: POST /v1/login 500 - 91.777 ms - message: invalid username and password
+ 14/2/2023, 12:56:43 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:56:43 pm [31merror[39m: POST /v1/login 500 - 662.657 ms - message: invalid username and password
+ 14/2/2023, 12:58:01 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:58:01 pm [31merror[39m: POST /v1/login 500 - 69.217 ms - message: invalid username and password
+ 14/2/2023, 12:58:07 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:365:14)
+ 14/2/2023, 12:58:07 pm [31merror[39m: GET /v1/collection/web 401 - 8.262 ms - message: Please authenticate
+ 14/2/2023, 12:58:44 pm [31merror[39m: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 14/2/2023, 12:58:44 pm [31merror[39m: POST /v1/login 400 - 3.986 ms - message: Unexpected end of JSON input
+ 14/2/2023, 12:58:46 pm [31merror[39m: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 14/2/2023, 12:58:46 pm [31merror[39m: POST /v1/login 400 - 4.172 ms - message: Unexpected end of JSON input
+ 14/2/2023, 12:58:51 pm [31merror[39m: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 14/2/2023, 12:58:51 pm [31merror[39m: POST /v1/login 400 - 3.064 ms - message: Unexpected end of JSON input
+ 14/2/2023, 12:58:58 pm [31merror[39m: Error: "email" is required, "password" is required
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\validate.js:15:17
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+ 14/2/2023, 12:58:58 pm [31merror[39m: POST /v1/login 400 - 7.273 ms - message: "email" is required, "password" is required
+ 14/2/2023, 12:59:07 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 12:59:07 pm [31merror[39m: POST /v1/login 500 - 65.524 ms - message: invalid username and password
+ 14/2/2023, 1:00:23 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 1:00:23 pm [31merror[39m: POST /v1/login/ 500 - 100.258 ms - message: invalid username and password
+ 14/2/2023, 1:01:44 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 1:01:44 pm [31merror[39m: POST /v1/login/ 500 - 78.420 ms - message: invalid username and password
+ 14/2/2023, 1:01:45 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:20:16
+ 14/2/2023, 1:01:45 pm [31merror[39m: POST /v1/login/ 500 - 44.853 ms - message: invalid username and password
+ 14/2/2023, 1:12:35 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 14/2/2023, 1:12:35 pm [31merror[39m: POST /v1/login/ Bad Request - 1055.888 ms - message: invalid username and password
+ 14/2/2023, 1:13:00 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:50
+
+  78 // const start = dayjs().startOf('date').toDate();
+  79 // const end = dayjs().endOf('date').toDate();
+  80 console.log(id,"id");
+→ 81 const collection = await prisma.egg_Collection.findMany({
+       where: {
+         userId: NaN
+                 ~~~
+       },
+       include: {
+         approx_next_time: true,
+         Egg_Image: true,
+         location_name: true
+       }
+     })
+
+Argument userId: Got invalid value NaN on prisma.findManyEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 14/2/2023, 1:13:00 pm [31merror[39m: GET /v1/collection/web 400 - 295.608 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:50
+
+  78 // const start = dayjs().startOf('date').toDate();
+  79 // const end = dayjs().endOf('date').toDate();
+  80 console.log(id,"id");
+→ 81 const collection = await prisma.egg_Collection.findMany({
+       where: {
+         userId: NaN
+                 ~~~
+       },
+       include: {
+         approx_next_time: true,
+         Egg_Image: true,
+         location_name: true
+       }
+     })
+
+Argument userId: Got invalid value NaN on prisma.findManyEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 14/2/2023, 1:13:04 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:50
+
+  78 // const start = dayjs().startOf('date').toDate();
+  79 // const end = dayjs().endOf('date').toDate();
+  80 console.log(id,"id");
+→ 81 const collection = await prisma.egg_Collection.findMany({
+       where: {
+         userId: NaN
+                 ~~~
+       },
+       include: {
+         approx_next_time: true,
+         Egg_Image: true,
+         location_name: true
+       }
+     })
+
+Argument userId: Got invalid value NaN on prisma.findManyEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 14/2/2023, 1:13:04 pm [31merror[39m: GET /v1/collection/web 400 - 53.783 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:50
+
+  78 // const start = dayjs().startOf('date').toDate();
+  79 // const end = dayjs().endOf('date').toDate();
+  80 console.log(id,"id");
+→ 81 const collection = await prisma.egg_Collection.findMany({
+       where: {
+         userId: NaN
+                 ~~~
+       },
+       include: {
+         approx_next_time: true,
+         Egg_Image: true,
+         location_name: true
+       }
+     })
+
+Argument userId: Got invalid value NaN on prisma.findManyEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 14/2/2023, 1:26:56 pm [31merror[39m: Error: "locationId" is required, "depth" is required, "distanceOfEgg" is required, "status" is required
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\validate.js:15:17
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:32:19
+ 14/2/2023, 1:26:56 pm [31merror[39m: POST /v1/collection/web 400 - 623.127 ms - message: "locationId" is required, "depth" is required, "distanceOfEgg" is required, "status" is required
+ 14/2/2023, 3:35:18 pm [31merror[39m: SyntaxError: Unexpected token l in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 14/2/2023, 3:35:18 pm [31merror[39m: GET /v1/collection/web 400 - 162.035 ms - message: Unexpected token l in JSON at position 6
+ 14/2/2023, 3:35:20 pm [31merror[39m: SyntaxError: Unexpected token l in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 14/2/2023, 3:35:20 pm [31merror[39m: GET /v1/collection/web 400 - 7.279 ms - message: Unexpected token l in JSON at position 6
+ 14/2/2023, 3:36:25 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:36:25 pm [31merror[39m: GET /v1/collection/web 400 - 554.842 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:36:32 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:36:32 pm [31merror[39m: GET /v1/collection/web 400 - 139.671 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:37:29 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:37:29 pm [31merror[39m: GET /v1/collection/web 400 - 616.838 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:37:31 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:37:31 pm [31merror[39m: GET /v1/collection/web 400 - 40.289 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:39:05 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:39:05 pm [31merror[39m: GET /v1/collection/web 400 - 935.261 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:39:06 pm [31merror[39m: TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+    at new NodeError (node:internal/errors:387:5)
+    at Function.from (node:buffer:328:9)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:193:22)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:17:7
+ 14/2/2023, 3:39:06 pm [31merror[39m: GET /v1/collection/web 400 - 49.872 ms - message: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function webCollectionList
+ 14/2/2023, 3:40:40 pm [31merror[39m: ReferenceError: collectionReq is not defined
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:76:61
+    at D:\Iyappan\turtle-egg-calculate-backend\src\utils\catchAsync.js:2:19
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:32:19
+ 14/2/2023, 3:40:40 pm [31merror[39m: POST /v1/collection/web 400 - 80.522 ms - message: collectionReq is not defined
+ 14/2/2023, 4:27:52 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:140:7)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:140:7)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:140:7)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+ 14/2/2023, 4:27:52 pm [31merror[39m: GET /v1/collection/ 401 - 8.151 ms - message: Please authenticate
+ 14/2/2023, 4:39:25 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.update()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:66:50
+
+  63   return false;
+  64 };
+  65 const updateCollectionList = async (data) => {
+→ 66   const updateList = await prisma.egg_Collection.update({
+         where: 91,
+                ~~
+         data: {
+           id: 91,
+           incharge_name: 'AKI_AKI'
+         }
+       })
+
+Argument where: Got invalid value 91 on prisma.updateOneEgg_Collection. Provided Int, expected Egg_CollectionWhereUniqueInput:
+type Egg_CollectionWhereUniqueInput {
+  id?: Int
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 14/2/2023, 4:39:25 pm [31merror[39m: PATCH /v1/collection/ 400 - 1024.440 ms - message: 
+Invalid `prisma.egg_Collection.update()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:66:50
+
+  63   return false;
+  64 };
+  65 const updateCollectionList = async (data) => {
+→ 66   const updateList = await prisma.egg_Collection.update({
+         where: 91,
+                ~~
+         data: {
+           id: 91,
+           incharge_name: 'AKI_AKI'
+         }
+       })
+
+Argument where: Got invalid value 91 on prisma.updateOneEgg_Collection. Provided Int, expected Egg_CollectionWhereUniqueInput:
+type Egg_CollectionWhereUniqueInput {
+  id?: Int
+}
+ 15/2/2023, 5:54:59 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 15/2/2023, 5:54:59 pm [31merror[39m: POST /v1/tech/v1/collection/web 404 - 268.323 ms - message: Not found
+ 15/2/2023, 5:55:31 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 15/2/2023, 5:55:31 pm [31merror[39m: POST /v1/tech/v1/collection/web 404 - 21.388 ms - message: Not found
+ 15/2/2023, 5:56:21 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 15/2/2023, 5:56:21 pm [31merror[39m: POST /v1/tech/v1/collection/web 404 - 25.221 ms - message: Not found
+ 15/2/2023, 5:56:22 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 15/2/2023, 5:56:23 pm [31merror[39m: POST /v1/tech/v1/collection/web 404 - 62.794 ms - message: Not found
+ 15/2/2023, 5:56:42 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at JwtStrategy.strategy.error (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:358:18)
+    at verified (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:111:41)
+    at JwtStrategy.jwtVerify [as _verify] (D:\Iyappan\turtle-egg-calculate-backend\src\config\passport.js:27:5)
+ 15/2/2023, 5:56:42 pm [31merror[39m: POST /v1/collection/web 401 - 6024.654 ms - message: Please authenticate
+ 15/2/2023, 6:01:08 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:86:57
+
+  83 };
+  84 
+  85 const webCreateCollection = async (data) => {
+→ 86   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 15/2/2023, 6:01:08 pm [31merror[39m: POST /v1/collection/web 400 - 147.553 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:86:57
+
+  83 };
+  84 
+  85 const webCreateCollection = async (data) => {
+→ 86   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+ 15/2/2023, 6:09:14 pm [31merror[39m: SyntaxError: Unexpected token } in JSON at position 392
+    at JSON.parse (<anonymous>)
+    at parse (D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Iyappan\turtle-egg-calculate-backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+ 15/2/2023, 6:09:14 pm [31merror[39m: POST /v1/collection/web 400 - 15.821 ms - message: Unexpected token } in JSON at position 392
+ 15/2/2023, 6:10:04 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:88:57
+
+  85 const webCreateCollection = async (data) => {
+  86   // delete data.imageUrl
+  87   console.log("------>$$$$$$$$$$$$$",data)
+→ 88   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 15/2/2023, 6:10:05 pm [31merror[39m: POST /v1/collection/web 400 - 724.102 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:88:57
+
+  85 const webCreateCollection = async (data) => {
+  86   // delete data.imageUrl
+  87   console.log("------>$$$$$$$$$$$$$",data)
+→ 88   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+ 15/2/2023, 6:12:55 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:88:57
+
+  85 const webCreateCollection = async (data) => {
+  86   // delete data.imageUrl
+  87   console.log("------>$$$$$$$$$$$$$",data)
+→ 88   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 15/2/2023, 6:12:55 pm [31merror[39m: POST /v1/collection/web 400 - 765.863 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:88:57
+
+  85 const webCreateCollection = async (data) => {
+  86   // delete data.imageUrl
+  87   console.log("------>$$$$$$$$$$$$$",data)
+→ 88   const collectionDetails = await prisma.egg_Collection.create({
+         data: {
+           imageUrl: 'jjjj',
+           ~~~~~~~~
+           nest_width: 10,
+           nest_depth: 10,
+           no_of_eggs: 10,
+           distance_of_sea: 10,
+           temperature: 22,
+           approx_next_timeId: 1,
+           userId: 52,
+           locationId: 1,
+           wastage_egg: 50,
+           hatchery_id: 1,
+           height: 81,
+           nest_there: 1,
+           pit_number: 5
+         },
+         include: {
+           location_name: true,
+           approx_next_time: true
+         }
+       })
+
+Unknown arg `imageUrl` in data.imageUrl for type Egg_CollectionUncheckedCreateInput. Available args:
+
+type Egg_CollectionUncheckedCreateInput {
+  id?: Int
+  latitude?: String | Null
+  longitude?: String | Null
+  nest_width?: Float | Null
+  nest_depth: Float
+  no_of_eggs?: Int | Null
+  distance_of_sea: Float
+  temperature?: Float | Null
+  approx_next_timeId?: Int | Null
+  created_at?: DateTime
+  updated_at?: DateTime
+  userId: Int
+  status?: eggCollection
+  hatchery_date?: DateTime | Null
+  locationId: Int
+  wastage_egg?: Int | Null
+  hatchery_id?: Int | Null
+  height?: Float | Null
+  incharge_name?: String | Null
+  nest_there?: Int | Null
+  pit_number?: Int | Null
+  Egg_Image?: Egg_ImageUncheckedCreateNestedManyWithoutEggCollectionInput
+}
+ 16/2/2023, 11:13:15 am [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 16/2/2023, 11:13:15 am [31merror[39m: POST /v1/login/ Bad Request - 1076.238 ms - message: invalid username and password
+ 16/2/2023, 11:14:19 am [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 16/2/2023, 11:14:19 am [31merror[39m: POST /v1/login/ Bad Request - 254.561 ms - message: invalid username and password
+ 16/2/2023, 11:16:32 am [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:365:14)
+ 16/2/2023, 11:16:32 am [31merror[39m: GET /v1/collection/web/created-data 401 - 12.283 ms - message: Please authenticate
+ 16/2/2023, 11:17:10 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:17:10 am [31merror[39m: GET /v1/collection/web/created-data 400 - 805.412 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:17:50 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:17:50 am [31merror[39m: GET /v1/collection/web/created-data 400 - 2436.869 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:18:09 am [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at JwtStrategy.strategy.error (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:358:18)
+    at verified (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:111:41)
+    at JwtStrategy.jwtVerify [as _verify] (D:\Iyappan\turtle-egg-calculate-backend\src\config\passport.js:27:5)
+ 16/2/2023, 11:18:09 am [31merror[39m: GET /v1/collection/web/created-data 401 - 5263.413 ms - message: Please authenticate
+ 16/2/2023, 11:18:32 am [31merror[39m: Error: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16 //   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+Can't reach database server at `ls-f2640e88f8e1b2c149072172a99cfbe52167b5e8.cl4kxps5wa80.ap-south-1.rds.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ls-f2640e88f8e1b2c149072172a99cfbe52167b5e8.cl4kxps5wa80.ap-south-1.rds.amazonaws.com`:`5432`.
+    at RequestHandler.handleRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34883:13)
+    at RequestHandler.handleAndLogRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34841:12)
+    at RequestHandler.request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34836:12)
+    at async PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:16)
+    at async Object.verify (D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:20)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:12:23
+ 16/2/2023, 11:18:32 am [31merror[39m: POST /v1/login/ 400 - 5043.658 ms - message: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16 //   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+Can't reach database server at `ls-f2640e88f8e1b2c149072172a99cfbe52167b5e8.cl4kxps5wa80.ap-south-1.rds.amazonaws.com`:`5432`
+
+Please make sure your database server is running at `ls-f2640e88f8e1b2c149072172a99cfbe52167b5e8.cl4kxps5wa80.ap-south-1.rds.amazonaws.com`:`5432`.
+ 16/2/2023, 11:19:26 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:19:26 am [31merror[39m: GET /v1/collection/web/created-data 400 - 532.524 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:19:32 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:19:32 am [31merror[39m: GET /v1/collection/web/created-data 400 - 54.667 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:20:21 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:20:21 am [31merror[39m: GET /v1/collection/web/created-data 400 - 584.151 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:20:23 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:20:23 am [31merror[39m: GET /v1/collection/web/created-data 400 - 73.120 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:21:07 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:21:07 am [31merror[39m: GET /v1/collection/web/created-data 400 - 695.566 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:21:09 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:21:09 am [31merror[39m: GET /v1/collection/web/created-data 400 - 67.422 ms - message: 
+Invalid `prisma.egg_Collection.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:132:50
+
+  129 };
+  130 const webGetCollectionById = async (id) => {
+  131   console.log(id, 'id');
+→ 132   const collection = await prisma.egg_Collection.findFirst({
+          where: {
+            id: NaN
+                ~~~
+          }
+        })
+
+Argument id: Got invalid value NaN on prisma.findFirstEgg_Collection. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+ 16/2/2023, 11:59:53 am [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           team: true,
+           ~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `team` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 11:59:53 am [31merror[39m: GET /v1/collection/web/created-data 400 - 653.759 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           team: true,
+           ~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `team` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+ 16/2/2023, 12:00:14 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           teamId: true,
+           ~~~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `teamId` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 12:00:14 pm [31merror[39m: GET /v1/collection/web/created-data 400 - 729.159 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           teamId: true,
+           ~~~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `teamId` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+ 16/2/2023, 12:00:16 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           teamId: true,
+           ~~~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `teamId` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 12:00:16 pm [31merror[39m: GET /v1/collection/web/created-data 400 - 54.541 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:74:44
+
+  71   return list;
+  72 };
+  73 const webCreatedData = async () => {
+→ 74   const list = await prisma.egg_Collection.findMany({
+         include: {
+       ?   user?: true,
+           teamId: true,
+           ~~~~~~
+       ?   approx_next_time?: true,
+       ?   hatchery?: true,
+       ?   location_name?: true,
+       ?   Egg_Image?: true,
+       ?   _count?: true
+         }
+       })
+
+
+Unknown field `teamId` for include statement on model Egg_Collection. Available options are listed in green. Did you mean `user`?
+ 16/2/2023, 12:44:45 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+ 16/2/2023, 12:44:45 pm [31merror[39m: GET /v1/collection/web/created-data 401 - 19.580 ms - message: Please authenticate
+ 16/2/2023, 5:27:18 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:76:47
+
+  73 const webCreatedData = async (data) => {
+  74   const { pageNumber, pageSize } = data;
+  75   const Skip = (pageNumber - 1) * pageSize;
+→ 76   const allData = await prisma.egg_Collection.findMany({
+         skip: 0,
+         take: '10',
+               ~~~~
+         include: {
+           user: {
+             include: {
+               team: true
+             }
+           },
+           location_name: {
+             select: {
+               locationName: true
+             }
+           }
+         },
+         orderBy: {
+           id: 'desc'
+         }
+       })
+
+Argument take: Got invalid value '10' on prisma.findManyEgg_Collection. Provided String, expected Int.
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 5:27:18 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10 400 - 624.690 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:76:47
+
+  73 const webCreatedData = async (data) => {
+  74   const { pageNumber, pageSize } = data;
+  75   const Skip = (pageNumber - 1) * pageSize;
+→ 76   const allData = await prisma.egg_Collection.findMany({
+         skip: 0,
+         take: '10',
+               ~~~~
+         include: {
+           user: {
+             include: {
+               team: true
+             }
+           },
+           location_name: {
+             select: {
+               locationName: true
+             }
+           }
+         },
+         orderBy: {
+           id: 'desc'
+         }
+       })
+
+Argument take: Got invalid value '10' on prisma.findManyEgg_Collection. Provided String, expected Int.
+ 16/2/2023, 5:27:42 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:76:47
+
+  73 const webCreatedData = async (data) => {
+  74   const { pageNumber, pageSize } = data;
+  75   const Skip = (pageNumber - 1) * pageSize;
+→ 76   const allData = await prisma.egg_Collection.findMany({
+         skip: 0,
+         take: '10',
+               ~~~~
+         include: {
+           user: {
+             include: {
+               team: true
+             }
+           },
+           location_name: {
+             select: {
+               locationName: true
+             }
+           }
+         },
+         orderBy: {
+           id: 'desc'
+         }
+       })
+
+Argument take: Got invalid value '10' on prisma.findManyEgg_Collection. Provided String, expected Int.
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at PrismaPromise.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 16/2/2023, 5:27:42 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10 400 - 188.103 ms - message: 
+Invalid `prisma.egg_Collection.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:76:47
+
+  73 const webCreatedData = async (data) => {
+  74   const { pageNumber, pageSize } = data;
+  75   const Skip = (pageNumber - 1) * pageSize;
+→ 76   const allData = await prisma.egg_Collection.findMany({
+         skip: 0,
+         take: '10',
+               ~~~~
+         include: {
+           user: {
+             include: {
+               team: true
+             }
+           },
+           location_name: {
+             select: {
+               locationName: true
+             }
+           }
+         },
+         orderBy: {
+           id: 'desc'
+         }
+       })
+
+Argument take: Got invalid value '10' on prisma.findManyEgg_Collection. Provided String, expected Int.
+ 17/2/2023, 5:38:07 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                imageUrl: [
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ]
+                ~~~~~~~~~~~~~~~~~~~~~
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Argument imageUrl: Got invalid value 
+[
+  {
+    imageUrl: 'Alice'
+  },
+  {
+    imageUrl: 'Bob'
+  }
+]
+on prisma.createOneEgg_Collection. Provided List<Json>, expected String.
+
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 17/2/2023, 5:38:07 pm [31merror[39m: POST /v1/collection/web 400 - 1106.318 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                imageUrl: [
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ]
+                ~~~~~~~~~~~~~~~~~~~~~
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Argument imageUrl: Got invalid value 
+[
+  {
+    imageUrl: 'Alice'
+  },
+  {
+    imageUrl: 'Bob'
+  }
+]
+on prisma.createOneEgg_Collection. Provided List<Json>, expected String.
+ 17/2/2023, 5:50:41 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                image: [
+                ~~~~~
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ],
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `image` in data.Egg_Image.createMany.data.0.image for type Egg_ImageCreateManyEggCollectionInput. Did you mean `imageUrl`?
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 17/2/2023, 5:50:41 pm [31merror[39m: POST /v1/collection/web 400 - 701.842 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                image: [
+                ~~~~~
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ],
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `image` in data.Egg_Image.createMany.data.0.image for type Egg_ImageCreateManyEggCollectionInput. Did you mean `imageUrl`?
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 17/2/2023, 5:50:54 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                image: [
+                ~~~~~
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ],
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `image` in data.Egg_Image.createMany.data.0.image for type Egg_ImageCreateManyEggCollectionInput. Did you mean `imageUrl`?
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 17/2/2023, 5:50:54 pm [31merror[39m: POST /v1/collection/web 400 - 673.157 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                image: [
+                ~~~~~
+                  {
+                    imageUrl: 'Alice'
+                  },
+                  {
+                    imageUrl: 'Bob'
+                  }
+                ],
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `image` in data.Egg_Image.createMany.data.0.image for type Egg_ImageCreateManyEggCollectionInput. Did you mean `imageUrl`?
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 17/2/2023, 5:51:15 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                '0': {
+                  imageUrl: 'Alice'
+                },
+                '1': {
+                  imageUrl: 'Bob'
+                },
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `0` in data.Egg_Image.createMany.data.0.0 for type Egg_ImageCreateManyEggCollectionInput.
+Unknown arg `1` in data.Egg_Image.createMany.data.0.1 for type Egg_ImageCreateManyEggCollectionInput.
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 17/2/2023, 5:51:15 pm [31merror[39m: POST /v1/collection/web 400 - 764.138 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                '0': {
+                  imageUrl: 'Alice'
+                },
+                '1': {
+                  imageUrl: 'Bob'
+                },
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `0` in data.Egg_Image.createMany.data.0.0 for type Egg_ImageCreateManyEggCollectionInput.
+Unknown arg `1` in data.Egg_Image.createMany.data.0.1 for type Egg_ImageCreateManyEggCollectionInput.
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 17/2/2023, 5:51:25 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                '0': {
+                  imageUrl: 'Alice'
+                },
+                '1': {
+                  imageUrl: 'Bob'
+                },
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `0` in data.Egg_Image.createMany.data.0.0 for type Egg_ImageCreateManyEggCollectionInput.
+Unknown arg `1` in data.Egg_Image.createMany.data.0.1 for type Egg_ImageCreateManyEggCollectionInput.
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Document.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:32409:20)
+    at serializationFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35993:19)
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:36000:31)
+    at applyQueryExtensions (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34331:19)
+    at consumer (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35924:18)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:51
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35929:29
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:25431:12)
+    at PrismaClient._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:35926:22)
+    at requestFn (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34106:65)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:34122:18
+    at _callback (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33757:69)
+    at Proxy.then (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\index.js:33766:14)
+ 17/2/2023, 5:51:25 pm [31merror[39m: POST /v1/collection/web 400 - 780.734 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:111:57
+
+  108 const image=data.imageUrl;
+  109 delete data.imageUrl
+  110 console.log("------>$$$$$$$$$$$$$",data)
+→ 111 const collectionDetails = await prisma.egg_Collection.create({
+        data: {
+          nest_width: 10,
+          nest_depth: 10,
+          no_of_eggs: 10,
+          distance_of_sea: 10,
+          temperature: 22,
+          approx_next_timeId: 1,
+          userId: 52,
+          locationId: 1,
+          wastage_egg: 50,
+          hatchery_id: 1,
+          height: 81,
+          nest_there: 1,
+          pit_number: 5,
+          latitude: 'NEW COMER22222222222',
+          Egg_Image: {
+            createMany: {
+              data: {
+                '0': {
+                  imageUrl: 'Alice'
+                },
+                '1': {
+                  imageUrl: 'Bob'
+                },
+      +         imageUrl: String,
+      ?         id?: Int
+              }
+            }
+          }
+        },
+        include: {
+          location_name: true,
+          approx_next_time: true,
+          Egg_Image: true
+        }
+      })
+
+Unknown arg `0` in data.Egg_Image.createMany.data.0.0 for type Egg_ImageCreateManyEggCollectionInput.
+Unknown arg `1` in data.Egg_Image.createMany.data.0.1 for type Egg_ImageCreateManyEggCollectionInput.
+Argument imageUrl for data.Egg_Image.createMany.data.0.imageUrl is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 17/2/2023, 6:53:15 pm [31merror[39m: TypeError: Cannot read properties of null (reading 'name')
+    at D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:105
+    at Array.map (<anonymous>)
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:80:32)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 17/2/2023, 6:53:15 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10 400 - 1346.443 ms - message: Cannot read properties of null (reading 'name')
+ 17/2/2023, 6:54:41 pm [31merror[39m: TypeError: Cannot read properties of null (reading 'name')
+    at D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:106
+    at Array.map (<anonymous>)
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:80:32)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 17/2/2023, 6:54:41 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10 400 - 1239.867 ms - message: Cannot read properties of null (reading 'name')
+ 17/2/2023, 6:54:59 pm [31merror[39m: TypeError: Cannot read properties of null (reading 'name')
+    at D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:81:76
+    at Array.map (<anonymous>)
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:80:32)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 17/2/2023, 6:54:59 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10 400 - 959.103 ms - message: Cannot read properties of null (reading 'name')
+ 20/2/2023, 5:57:18 pm [31merror[39m: TypeError: allData.count is not a function
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:84:34)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 20/2/2023, 5:57:18 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10&searchName=hari 400 - 2106.149 ms - message: allData.count is not a function
+ 20/2/2023, 6:24:02 pm [31merror[39m: TypeError: filtered.length is not a function
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:84:29)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 20/2/2023, 6:24:02 pm [31merror[39m: GET /v1/collection/web/created-data?pageNumber=1&pageSize=10&searchName=mu 400 - 2398.002 ms - message: filtered.length is not a function
+ 21/2/2023, 11:08:12 am [31merror[39m: TypeError: (intermediate value).count is not a function
+    at Object.webCreatedData (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:84:122)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:93:20
+ 21/2/2023, 11:08:12 am [31merror[39m: GET /v1/collection/web/created-data?pageNumber=2&pageSize=10&searchName=hari 400 - 765.285 ms - message: (intermediate value).count is not a function
+ 21/2/2023, 3:50:36 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 21/2/2023, 3:50:36 pm [31merror[39m: POST /v1/login/ Bad Request - 2284.549 ms - message: invalid username and password
+ 21/2/2023, 3:50:38 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 21/2/2023, 3:50:38 pm [31merror[39m: POST /v1/login/ Bad Request - 231.834 ms - message: invalid username and password
+ 21/2/2023, 3:53:10 pm [31merror[39m: Error: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16 //   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst({
+       where: {
+         email: 'sakthi@vishgyana.com',
+         password: '¥§¥¨¡{',
+         roleId: 2
+       },
+       select: {
+       ~~~~~~
+         password: false
+       },
+       include: {
+       ~~~~~~~
+         role: true,
+         team: true
+       }
+     })
+
+
+Please either use `include` or `select`, but not both at the same time.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+    at async t._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:9714)
+    at async Object.verify (D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:20)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:12:23
+ 21/2/2023, 3:53:10 pm [31merror[39m: POST /v1/login/ 400 - 823.547 ms - message: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16 //   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst({
+       where: {
+         email: 'sakthi@vishgyana.com',
+         password: '¥§¥¨¡{',
+         roleId: 2
+       },
+       select: {
+       ~~~~~~
+         password: false
+       },
+       include: {
+       ~~~~~~~
+         role: true,
+         team: true
+       }
+     })
+
+
+Please either use `include` or `select`, but not both at the same time.
+ 21/2/2023, 3:54:28 pm [31merror[39m: Error: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzY5NzUwNjgsImV4cCI6MTY3OTU2NzA2OCwidHlwZSI6InJlZnJlc2gifQ.6Brsqav1OhYrZ5KcwS2HYt7463N7l6P51ijKii5TGI4',
+       +   user: Int,
+           expires: new Date('2023-03-23T10:24:28.174Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 21/2/2023, 3:54:28 pm [31merror[39m: POST /v1/login/ 400 - 1193.057 ms - message: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzY5NzUwNjgsImV4cCI6MTY3OTU2NzA2OCwidHlwZSI6InJlZnJlc2gifQ.6Brsqav1OhYrZ5KcwS2HYt7463N7l6P51ijKii5TGI4',
+       +   user: Int,
+           expires: new Date('2023-03-23T10:24:28.174Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 21/2/2023, 3:58:01 pm [31merror[39m: TypeError: responces.map is not a function
+    at Object.verify (D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:22:30)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:12:23
+ 21/2/2023, 3:58:01 pm [31merror[39m: POST /v1/login/ 400 - 1458.555 ms - message: responces.map is not a function
+ 21/2/2023, 3:58:26 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 21/2/2023, 3:58:26 pm [31merror[39m: POST /v1/login/ Bad Request - 1718.810 ms - message: invalid username and password
+ 21/2/2023, 5:00:35 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 21/2/2023, 5:00:35 pm [31merror[39m: GET /v1/lusers/token 404 - 6.743 ms - message: Not found
+ 21/2/2023, 5:01:45 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 21/2/2023, 5:01:45 pm [31merror[39m: GET /v1/lusers/token 404 - 9.431 ms - message: Not found
+ 21/2/2023, 5:01:51 pm [31merror[39m: Error: Not found
+    at D:\Iyappan\turtle-egg-calculate-backend\src\app.js:56:8
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at initialize (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\initialize.js:53:5)
+ 21/2/2023, 5:01:51 pm [31merror[39m: GET /v1/lusers/token 404 - 2.684 ms - message: Not found
+ 21/2/2023, 5:07:16 pm [31merror[39m: Error: Please authenticate
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:9:19
+    at allFailed (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:107:18)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:180:28)
+    at JwtStrategy.strategy.fail (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:302:9)
+    at JwtStrategy.authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport-jwt\lib\strategy.js:96:21)
+    at attempt (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:30:109
+    at new Promise (<anonymous>)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\auth.js:26:12
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+ 21/2/2023, 5:07:16 pm [31merror[39m: GET /v1/users/token 401 - 23.615 ms - message: Please authenticate
+ 21/2/2023, 5:07:23 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 21/2/2023, 5:07:23 pm [31merror[39m: POST /v1/login/ Bad Request - 1893.492 ms - message: invalid username and password
+ 21/2/2023, 5:07:50 pm [31merror[39m: Error: 
+Invalid `prisma.user.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\user.service.js:46:34
+
+  43   return user;
+  44 };
+  45 const getUserBytoken = async (id) => {
+→ 46   const user = await prisma.user.findMany({
+         where: {
+           id: NaN
+               ~~~
+         }
+       })
+
+Argument id: Got invalid value NaN on prisma.findManyUser. Provided Float, expected IntFilter or Int:
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+type IntFilter {
+  equals?: Int
+  in?: List<Int>
+  notIn?: List<Int>
+  lt?: Int
+  lte?: Int
+  gt?: Int
+  gte?: Int
+  not?: Int | NestedIntFilter
+}
+
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 21/2/2023, 5:15:38 pm [31merror[39m: Error: 
+Invalid `prisma.user.findMany()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\user.service.js:46:34
+
+  43   return user;
+  44 };
+  45 const getUserBytoken = async (id) => {
+→ 46   const user = await prisma.user.findMany({
+         where: {
+           id: 1
+         },
+         select: {
+       ?   password?: true,
+       ?   id?: true,
+       ?   phone_number?: true,
+       ?   name?: true,
+       ?   status?: true,
+       ?   teamId?: true,
+       ?   email?: true,
+       ?   roleId?: true,
+       ?   Egg_Collection?: true,
+       ?   role?: true,
+       ?   team?: true,
+       ?   _count?: true
+         }
+       })
+
+
+The `select` statement for type User needs at least one truthy value.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 21/2/2023, 5:16:01 pm [31merror[39m: Error: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\user.service.js:46:34
+
+  43   return user;
+  44 };
+  45 const getUserBytoken = async (id) => {
+→ 46   const user = await prisma.user.findFirst({
+         where: {
+           id: 1
+         },
+         select: {
+       ?   password?: true,
+       ?   id?: true,
+       ?   phone_number?: true,
+       ?   name?: true,
+       ?   status?: true,
+       ?   teamId?: true,
+       ?   email?: true,
+       ?   roleId?: true,
+       ?   Egg_Collection?: true,
+       ?   role?: true,
+       ?   team?: true,
+       ?   _count?: true
+         }
+       })
+
+
+The `select` statement for type User needs at least one truthy value.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 21/2/2023, 5:20:04 pm [31merror[39m: ReferenceError: exclude is not defined
+    at Object.getUserBytoken (D:\Iyappan\turtle-egg-calculate-backend\src\services\user.service.js:47:31)
+    at async getUserBytoken (D:\Iyappan\turtle-egg-calculate-backend\src\controllers\user.controller.js:22:16)
+ 21/2/2023, 5:22:47 pm [31merror[39m: TypeError: user.map is not a function
+    at Object.getUserBytoken (D:\Iyappan\turtle-egg-calculate-backend\src\services\user.service.js:47:25)
+    at async getUserBytoken (D:\Iyappan\turtle-egg-calculate-backend\src\controllers\user.controller.js:22:16)
+ 21/2/2023, 5:41:40 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 21/2/2023, 5:41:40 pm [31merror[39m: POST /v1/login/ Bad Request - 1546.243 ms - message: invalid username and password
+ 22/2/2023, 3:04:05 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 22/2/2023, 3:04:05 pm [31merror[39m: POST /v1/login/ 500 - 1566.753 ms - message: invalid username and password
+ 22/2/2023, 6:16:16 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 22/2/2023, 6:16:16 pm [31merror[39m: POST /v1/login 500 - 1403.216 ms - message: invalid username and password
+ 22/2/2023, 6:40:50 pm [31merror[39m: Error: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+The column `Role.rolePrivilege` does not exist in the current database.
+    at Kr.handleRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19499)
+    at Kr.handleAndLogRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19031)
+    at Kr.request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:18869)
+    at async t._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:9714)
+    at async Object.verify (D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:20)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:12:23
+ 22/2/2023, 6:40:50 pm [31merror[39m: POST /v1/login 400 - 1020.833 ms - message: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+The column `Role.rolePrivilege` does not exist in the current database.
+ 22/2/2023, 6:41:20 pm [31merror[39m: Error: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+The column `Role.rolePrivilege` does not exist in the current database.
+    at Kr.handleRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19499)
+    at Kr.handleAndLogRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19031)
+    at Kr.request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:18869)
+    at async t._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:9714)
+    at async Object.verify (D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:20)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:12:23
+ 22/2/2023, 6:41:20 pm [31merror[39m: POST /v1/login 400 - 190.873 ms - message: 
+Invalid `prisma.user.findFirst()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\login.service.js:18:38
+
+  15 
+  16   console.log(cryptpassword);
+  17 
+→ 18 const responce = await prisma.user.findFirst(
+The column `Role.rolePrivilege` does not exist in the current database.
+ 22/2/2023, 6:43:49 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 22/2/2023, 6:43:49 pm [31merror[39m: POST /v1/login Bad Request - 1625.171 ms - message: invalid username and password
+ 23/2/2023, 1:18:46 pm [31merror[39m: Error: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxMzg1MjYsImV4cCI6MTY3OTczMDUyNiwidHlwZSI6InJlZnJlc2gifQ.fVyJjpmU45GAkfy4A0cmRDkwp5Zp-KBpHu7Xb9vyvhs',
+       +   user: Int,
+           expires: new Date('2023-03-25T07:48:46.610Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 23/2/2023, 1:18:46 pm [31merror[39m: POST /v1/login 400 - 2959.076 ms - message: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxMzg1MjYsImV4cCI6MTY3OTczMDUyNiwidHlwZSI6InJlZnJlc2gifQ.fVyJjpmU45GAkfy4A0cmRDkwp5Zp-KBpHu7Xb9vyvhs',
+       +   user: Int,
+           expires: new Date('2023-03-25T07:48:46.610Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 23/2/2023, 3:43:19 pm [31merror[39m: Error: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDcxOTksImV4cCI6MTY3OTczOTE5OSwidHlwZSI6InJlZnJlc2gifQ.JC7PzZCqCgVsLz4x6SNOIGEh2GURGXpuPL0ULHjVJyw',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:13:19.031Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 23/2/2023, 3:43:19 pm [31merror[39m: POST /v1/login 400 - 2090.885 ms - message: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDcxOTksImV4cCI6MTY3OTczOTE5OSwidHlwZSI6InJlZnJlc2gifQ.JC7PzZCqCgVsLz4x6SNOIGEh2GURGXpuPL0ULHjVJyw',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:13:19.031Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 23/2/2023, 3:50:05 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:50:05 pm [31merror[39m: POST /v1/login Bad Request - 3343.223 ms - message: invalid username and password
+ 23/2/2023, 3:50:32 pm [31merror[39m: Error: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDc2MzEsImV4cCI6MTY3OTczOTYzMSwidHlwZSI6InJlZnJlc2gifQ.x5k1mu_8auNJsM2YmMKKDQgQAnJcnVj4Nh9Coj8LGss',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:20:31.987Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 23/2/2023, 3:50:32 pm [31merror[39m: POST /v1/login 400 - 3674.264 ms - message: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDc2MzEsImV4cCI6MTY3OTczOTYzMSwidHlwZSI6InJlZnJlc2gifQ.x5k1mu_8auNJsM2YmMKKDQgQAnJcnVj4Nh9Coj8LGss',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:20:31.987Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 23/2/2023, 3:51:18 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:51:18 pm [31merror[39m: POST /v1/login 500 - 2309.744 ms - message: invalid username and password
+ 23/2/2023, 3:51:30 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:51:30 pm [31merror[39m: POST /v1/login 500 - 867.860 ms - message: invalid username and password
+ 23/2/2023, 3:51:32 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:51:32 pm [31merror[39m: POST /v1/login 500 - 107.918 ms - message: invalid username and password
+ 23/2/2023, 3:51:40 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:51:40 pm [31merror[39m: POST /v1/login 500 - 731.153 ms - message: invalid username and password
+ 23/2/2023, 3:52:13 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:52:13 pm [31merror[39m: POST /v1/login 500 - 640.257 ms - message: invalid username and password
+ 23/2/2023, 3:52:14 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:18:9
+ 23/2/2023, 3:52:14 pm [31merror[39m: POST /v1/login 500 - 88.498 ms - message: invalid username and password
+ 23/2/2023, 3:52:23 pm [31merror[39m: Error: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDc3NDMsImV4cCI6MTY3OTczOTc0MywidHlwZSI6InJlZnJlc2gifQ.ydFBAJvHeDHs4fe7h-OLmG_oYoVL6rSkwzHG72qFjzI',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:22:23.317Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+
+    at Yn.validate (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:148:91)
+    at Ur.createMessage (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:13577)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10192
+    at runInChildSpan (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:70:25749)
+    at t._executeRequest (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:10181)
+ 23/2/2023, 3:52:23 pm [31merror[39m: POST /v1/login 400 - 678.473 ms - message: 
+Invalid `prisma.token.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\token.service.js:24:39
+
+  21 };
+  22 
+  23 const saveToken = async (token, userId, expires, type, blacklisted = false) => {
+→ 24   const tokenDoc = await prisma.token.create({
+         data: {
+           token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzcxNDc3NDMsImV4cCI6MTY3OTczOTc0MywidHlwZSI6InJlZnJlc2gifQ.ydFBAJvHeDHs4fe7h-OLmG_oYoVL6rSkwzHG72qFjzI',
+       +   user: Int,
+           expires: new Date('2023-03-25T10:22:23.317Z'),
+           type: 'refresh',
+           blacklisted: false,
+       ?   createdAt?: DateTime,
+       ?   updatedAt?: DateTime | null,
+       ?   deletedAt?: DateTime | null
+         }
+       })
+
+Argument user for data.user is missing.
+
+Note: Lines with + are required, lines with ? are optional.
+ 23/2/2023, 3:53:52 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:9
+ 23/2/2023, 3:53:52 pm [31merror[39m: POST /v1/login Bad Request - 678.137 ms - message: invalid username and password
+ 23/2/2023, 3:55:24 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:9
+ 23/2/2023, 3:55:24 pm [31merror[39m: POST /v1/login Bad Request - 138.670 ms - message: invalid username and password
+ 23/2/2023, 3:55:36 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:9
+ 23/2/2023, 3:55:36 pm [31merror[39m: POST /v1/login 500 - 727.203 ms - message: invalid username and password
+ 23/2/2023, 3:55:56 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:19:9
+ 23/2/2023, 3:55:56 pm [31merror[39m: POST /v1/login Bad Request - 724.818 ms - message: invalid username and password
+ 23/2/2023, 3:56:54 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:19:9
+ 23/2/2023, 3:56:54 pm [31merror[39m: POST /v1/login Bad Request - 743.902 ms - message: invalid username and password
+ 23/2/2023, 4:05:00 pm [31merror[39m: Error: "token" is not allowed to be empty
+    at D:\Iyappan\turtle-egg-calculate-backend\src\middlewares\validate.js:15:17
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\router\index.js:175:3)
+ 23/2/2023, 4:05:00 pm [31merror[39m: POST /v1/login/passwordCreate 400 - 17.270 ms - message: "token" is not allowed to be empty
+ 23/2/2023, 4:05:53 pm [31merror[39m: Error: invalid username and password
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:19:9
+ 23/2/2023, 4:05:53 pm [31merror[39m: POST /v1/login Bad Request - 234.984 ms - message: invalid username and password
+ 23/2/2023, 4:06:29 pm [31merror[39m: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:162:21)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:7
+ 23/2/2023, 4:06:29 pm [31merror[39m: POST /v1/login 400 - 747.765 ms - message: Cannot set headers after they are sent to the client
+ 23/2/2023, 4:06:39 pm [31merror[39m: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:162:21)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:7
+ 23/2/2023, 4:06:39 pm [31merror[39m: POST /v1/login 400 - 1318.029 ms - message: Cannot set headers after they are sent to the client
+ 23/2/2023, 4:09:49 pm [31merror[39m: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:162:21)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:7
+ 23/2/2023, 4:09:49 pm [31merror[39m: POST /v1/login 400 - 1380.804 ms - message: Cannot set headers after they are sent to the client
+ 23/2/2023, 4:55:57 pm [31merror[39m: Error: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:113:57
+
+  110 const image=data.imageUrl;
+  111 delete data.imageUrl
+  112 console.log("------>$$$$$$$$$$$$$",data)
+→ 113 const collectionDetails = await prisma.egg_Collection.create(
+Foreign key constraint failed on the field: `Egg_Collection_userId_fkey (index)`
+    at Kr.handleRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19499)
+    at Kr.handleAndLogRequestError (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:19031)
+    at Kr.request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:163:18869)
+    at async t._request (D:\Iyappan\turtle-egg-calculate-backend\node_modules\@prisma\client\runtime\library.js:173:9714)
+    at async Object.webCreateCollection (D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:113:29)
+    at async D:\Iyappan\turtle-egg-calculate-backend\src\controllers\collection.controller.js:87:20
+ 23/2/2023, 4:55:57 pm [31merror[39m: POST /v1/collection/web 400 - 1386.981 ms - message: 
+Invalid `prisma.egg_Collection.create()` invocation in
+D:\Iyappan\turtle-egg-calculate-backend\src\services\collection.service.js:113:57
+
+  110 const image=data.imageUrl;
+  111 delete data.imageUrl
+  112 console.log("------>$$$$$$$$$$$$$",data)
+→ 113 const collectionDetails = await prisma.egg_Collection.create(
+Foreign key constraint failed on the field: `Egg_Collection_userId_fkey (index)`
+ 23/2/2023, 6:12:15 pm [31merror[39m: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Iyappan\turtle-egg-calculate-backend\node_modules\express\lib\response.js:162:21)
+    at D:\Iyappan\turtle-egg-calculate-backend\src\controllers\login.controller.js:17:7
+ 23/2/2023, 6:12:15 pm [31merror[39m: POST /v1/login 400 - 1463.356 ms - message: Cannot set headers after they are sent to the client

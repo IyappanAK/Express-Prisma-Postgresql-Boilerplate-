@@ -13,7 +13,7 @@
     "start:prod": "pm2 start ecosystem.prod.config.json --no-daemon",
     "stop:dev": "pm2 stop ecosystem.dev.config.json",
     "stop:prod": "pm2 stop ecosystem.prod.config.json",
-    "dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "dev": "nodemon src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prettier": "prettier --check **/*.js",

@@ -4,6 +4,7 @@ const logger = require('../config/logger');
 const { decrypt } = require('../utils/commonUtils');
 
 const transport = nodemailer.createTransport(config.email.smtp);
+
 /* istanbul ignore next */
 // if (config.env !== 'test') {
 //   transport

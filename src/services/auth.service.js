@@ -29,6 +29,7 @@ const logout = async (refreshToken) => {
 module.exports = {
     verifyOtp,
     twoFactorApi,
+    logout
 }
 
 

@@ -8,121 +8,125 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Address {
+  id             Int          @id @default(autoincrement())
+  address_type   String
+  house_no       Int
+  street_address String
+  area           String
+  landmark       String
+  city           String
+  state          String
+  lat            String
+  lon            String
+  user_id        Int
+  created_at     DateTime
+  User           User         @relation(fields: [user_id], references: [id])
+  Restaurent     Restaurent[]
+}
+
 model User {
-  id             Int              @id @default(autoincrement())
-  empId          Int              @default(autoincrement())
-  name           String
-  phone_number   String
-  status         userStatusType   @default(pending)
-  adminUserStatus Boolean         @default(true)
-  teamId         Int?
-  email          String  @unique
-  password       String?
-  roleId         Int           
-  Egg_Collection Egg_Collection[]
-  role           Role             @relation(fields: [roleId], references: [id])
-  team           Team?            @relation(fields: [teamId], references: [id])
+  id           Int            @id @default(autoincrement())
+  name         String
+  email        String
+  phone_number String
+  role_id      Int
+  created_at   DateTime       @default(now())
+  Role         Role           @relation(fields: [role_id], references: [id])
+  orders       Order[]
+  reviews      Review[]
+  Address      Address[]
+  Notification Notification[]
+}
+
+model Menu {
+  id            Int            @id @default(autoincrement())
+  name          String
+  type          String
+  description   String
+  image         String
+  price         Int
+  gstPercentage String
+  category_id   Int
+  Restaurent_id Int
+  isAvailable   Boolean
+  category      menuCategory   @relation(fields: [category_id], references: [id])
+  restaurent    Restaurent?    @relation(fields: [Restaurent_id], references: [id])
+  orders        Order[]
+  Notification  Notification[]
+  reviews       Review[]
+  cart_menu     cart_menu[]
+}
+
+model Notification {
+  id          Int    @id @default(autoincrement())
+  messageHead String
+  description String
+  order_id    Int
+  user_id     Int
+  order       Order  @relation(fields: [order_id], references: [id])
+  user        User   @relation(fields: [user_id], references: [id])
+  Menu        Menu?  @relation(fields: [menu_id], references: [id])
+  menu_id     Int?
+}
+
+model Order {
+  id           Int            @id @default(autoincrement())
+  user_id      Int
+  cart_menu_id Int
+  orderStatus  String
+  Bill         Json?
+  rider_id     String
+  rider_name   String
+  user         User           @relation(fields: [user_id], references: [id])
+  cart_menu    cart_menu      @relation(fields: [cart_menu_id], references: [id])
+  reviews      Review[]
+  Menu         Menu?          @relation(fields: [menu_id], references: [id])
+  menu_id      Int?
+  Notification Notification[]
+}
+
+model menuCategory {
+  id                 Int     @id @default(autoincrement())
+  menu_category_name String
+  isAvailable        Boolean
+  menus              Menu[]
+}
+
+model Restaurent {
+  id          Int     @id @default(autoincrement())
+  name        String
+  address_id  Int
+  description String
+  address     Address @relation(fields: [address_id], references: [id])
+  menus       Menu[]
+}
+
+model Review {
+  id                 Int    @id @default(autoincrement())
+  ReviewType         String
+  reviewTitle        String
+  review_description String
+  stars              Int
+  user_id            Int
+  order_id           Int
+  menu_id            Int
+  user               User   @relation(fields: [user_id], references: [id])
+  order              Order  @relation(fields: [order_id], references: [id])
+  menu               Menu   @relation(fields: [menu_id], references: [id])
+}
+
+model cart_menu {
+  id      Int     @id @default(autoincrement())
+  menu_id Int
+  count   Float
+  menu    Menu    @relation(fields: [menu_id], references: [id])
+  Order   Order[]
 }
 
 model Role {
-  id            Int     @id @default(autoincrement())
+  id            Int    @id @default(autoincrement())
   role_name     String
-  rolePrivilege String?
-  User          User[]
-}
-
-model Team {
-  id   Int    @id @default(autoincrement())
-  name String
-  User User[]
-}
-
-model Egg_Collection {
-  id                 Int               @id @default(autoincrement())
-  latitude           String?
-  longitude          String?
-  nest_width         Float?
-  nest_depth         Float
-  no_of_eggs         Int?
-  distance_of_sea    Float
-  temperature        Float?
-  approx_next_timeId Int?
-  created_at         DateTime          @default(now()) @db.Timestamptz(6)
-  updated_at         DateTime          @updatedAt @db.Timestamptz(6)
-  userId             Int
-  status             eggCollection     @default(pending)
-  hatchery_date      DateTime?
-  locationId         Int
-  wastage_egg        Int?
-  hatchery_id        Int?
-  height             Float?
-  incharge_name      String?
-  nest_there         Int?
-  pit_number         Int?
-  approx_next_time   Approx_Next_Time? @relation(fields: [approx_next_timeId], references: [id])
-  hatchery           Hatchery?         @relation(fields: [hatchery_id], references: [id])
-  location_name      Location          @relation(fields: [locationId], references: [id])
-  user               User              @relation(fields: [userId], references: [id])
-  Egg_Image          Egg_Image[]
-}
-
-model Hatchery {
-  id             Int              @id @default(autoincrement())
-  hatchery_name  String
-  Egg_Collection Egg_Collection[]
-}
-
-model Egg_Image {
-  id              Int            @id @default(autoincrement())
-  eggCollectionId Int
-  imageUrl        String
-  eggCollection   Egg_Collection @relation(fields: [eggCollectionId], references: [id])
-}
-
-model Approx_Next_Time {
-  id             Int              @id @default(autoincrement())
-  option         String
-  value          String
-  Egg_Collection Egg_Collection[]
-}
-
-model OTP {
-  id           Int     @id @default(autoincrement())
-  phone_number Int
-  otp          Int
-  active       Boolean
-}
-
-model Token {
-  id          Int       @id @default(autoincrement())
-  token       String
-  user        Int
-  type        TokenType
-  expires     DateTime  @db.Timestamptz(3)
-  blacklisted Boolean   @default(false)
-  createdAt   DateTime  @default(now()) @db.Timestamptz(3)
-  updatedAt   DateTime? @updatedAt @db.Timestamptz(3)
-  deletedAt   DateTime? @db.Timestamptz(3)
-}
-
-model Location {
-  id             Int              @id @default(autoincrement())
-  locationName   String
-  Egg_Collection Egg_Collection[]
-}
-
-enum TokenType {
-  refresh
-  resetPassword
-  verifyEmail
-}
-
-enum userStatusType {
-  pending
-  completed
-}
-
-enum eggCollection {
-  pending
-  completed
+  rolePrivilege Json?
+  users         User[]
 }
